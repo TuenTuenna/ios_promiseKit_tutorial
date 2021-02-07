@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		F2C6057C25D00C9D00B29993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C6057B25D00C9D00B29993 /* Assets.xcassets */; };
 		F2C6057F25D00C9D00B29993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C6057D25D00C9D00B29993 /* LaunchScreen.storyboard */; };
 		F2C6058825D00D2200B29993 /* ViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C6058725D00D2200B29993 /* ViewController+Ext.swift */; };
+		F2C6058C25D03C4A00B29993 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = F2C6058B25D03C4A00B29993 /* PromiseKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C6058C25D03C4A00B29993 /* PromiseKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,9 @@
 			dependencies = (
 			);
 			name = PromiseKit_Tutorial;
+			packageProductDependencies = (
+				F2C6058B25D03C4A00B29993 /* PromiseKit */,
+			);
 			productName = PromiseKit_Tutorial;
 			productReference = F2C6056F25D00C9B00B29993 /* PromiseKit_Tutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +118,9 @@
 				Base,
 			);
 			mainGroup = F2C6056625D00C9B00B29993;
+			packageReferences = (
+				F2C6058A25D03C4A00B29993 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+			);
 			productRefGroup = F2C6057025D00C9B00B29993 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -345,6 +353,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2C6058A25D03C4A00B29993 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.13.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2C6058B25D03C4A00B29993 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2C6058A25D03C4A00B29993 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2C6056725D00C9B00B29993 /* Project object */;
 }

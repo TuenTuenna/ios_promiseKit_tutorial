@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ddw-UZ-FAd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="hBg-T2-7uc">
+            <objects>
+                <viewController id="ddw-UZ-FAd" customClass="ViewController" customModule="promiseKit_tutorial_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C5T-jV-6O2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mzg-KS-9FO">
+                                <rect key="frame" x="116.5" y="234" width="181" height="428"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3v-LC-Xw7">
+                                        <rect key="frame" x="0.0" y="0.0" width="181" height="44"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                        <state key="normal" title="클로저 1번">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1Z-dG-nVM">
+                                        <rect key="frame" x="0.0" y="64" width="181" height="44"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                        <state key="normal" title="클로저 2번">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HfM-lU-k7c">
+                                        <rect key="frame" x="0.0" y="128" width="181" height="44"/>
+                                        <color key="backgroundColor" red="0.56179717090000003" green="0.56179717090000003" blue="0.56179717090000003" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                        <state key="normal" title="클로저 3번">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwF-Eh-uEq">
+                                        <rect key="frame" x="0.0" y="192" width="181" height="44"/>
+                                        <color key="backgroundColor" red="0.31231305739999998" green="0.4104128548" blue="0.56179717090000003" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                        <state key="normal" title="프로미스킷 1번">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyR-I3-tDM">
+                                        <rect key="frame" x="0.0" y="256" width="181" height="44"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                        <state key="normal" title="프로미스킷 2번">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02M-AZ-QSt">
+                                        <rect key="frame" x="0.0" y="320" width="181" height="44"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                        <state key="normal" title="프로미스킷 3번">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BL5-ey-YpT">
+                                        <rect key="frame" x="0.0" y="384" width="181" height="44"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                        <state key="normal" title="인디케이터 보여주기">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JAg-N9-3bh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mzg-KS-9FO" firstAttribute="centerY" secondItem="C5T-jV-6O2" secondAttribute="centerY" id="0Wo-KN-0CO"/>
+                            <constraint firstItem="mzg-KS-9FO" firstAttribute="centerX" secondItem="C5T-jV-6O2" secondAttribute="centerX" id="fas-Dd-Nlv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstBtn" destination="U3v-LC-Xw7" id="6Kh-3j-7i6"/>
+                        <outlet property="fiveBtn" destination="RyR-I3-tDM" id="rgh-Iu-wrL"/>
+                        <outlet property="fourBtn" destination="KwF-Eh-uEq" id="0lZ-8l-ZOf"/>
+                        <outlet property="secondBtn" destination="X1Z-dG-nVM" id="boS-fl-xbq"/>
+                        <outlet property="showIndicatorBtn" destination="BL5-ey-YpT" id="Gko-p2-Sqd"/>
+                        <outlet property="sixBtn" destination="02M-AZ-QSt" id="haL-CO-VnU"/>
+                        <outlet property="thirdBtn" destination="HfM-lU-k7c" id="qQe-Ur-cZM"/>
+                        <outletCollection property="btns" destination="U3v-LC-Xw7" collectionClass="NSMutableArray" id="iQc-Kd-gAB"/>
+                        <outletCollection property="btns" destination="X1Z-dG-nVM" collectionClass="NSMutableArray" id="9j3-lc-A2w"/>
+                        <outletCollection property="btns" destination="HfM-lU-k7c" collectionClass="NSMutableArray" id="Rjm-or-qN9"/>
+                        <outletCollection property="btns" destination="KwF-Eh-uEq" collectionClass="NSMutableArray" id="ZUZ-dq-B9F"/>
+                        <outletCollection property="btns" destination="RyR-I3-tDM" collectionClass="NSMutableArray" id="tsN-dD-b95"/>
+                        <outletCollection property="btns" destination="02M-AZ-QSt" collectionClass="NSMutableArray" id="8Zw-Ic-xvi"/>
+                        <outletCollection property="btns" destination="BL5-ey-YpT" collectionClass="NSMutableArray" id="5bv-1m-kdE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lSp-dl-wE3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="88"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
